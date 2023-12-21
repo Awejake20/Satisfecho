@@ -1,0 +1,29 @@
+{
+  "name": "satisfecho",
+  "version": "1.0.0",
+  "description": "Project for creating Satisfactory planning tool",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Awejake20/Satisfecho.git"
+  },
+  "author": "Jake",
+  "contributors": [
+    {
+      "name": "Jake",
+      "email": "awejake20@gmail.com"
+    },
+    {
+      "name": "Mitchell",
+      "email": "thelastdonut1@gmail.com"
+    }
+  ],
+  "license": "LGPL-3.0-only",
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
+}
