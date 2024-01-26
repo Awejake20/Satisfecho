@@ -1,0 +1,322 @@
+[
+  {
+    "id": "",
+    "name": "Assembler",
+    "dimensions": {
+      "id": "",
+      "width": 10.0,
+      "length": 15.0,
+      "height": 11.0
+    },
+    "category": "Production",
+    "subCategory": "Manufacturers",
+    "powerConsumption": 15.0,
+    "inputsCount": 2,
+    "outputsCount": 1,
+    "requiredResearch": {
+      "id": "",
+      "name": "Part Assembly",
+      "tier": 2
+    }
+  },
+  {
+    "id": "",
+    "name": "Blender",
+    "dimensions": {
+      "id": "",
+      "width": 18.0,
+      "length": 16.0,
+      "height": 15.0
+    },
+    "category": "Production",
+    "subCategory": "Manufacturers",
+    "powerConsumption": 75.0,
+    "inputsCount": 4,
+    "outputsCount": 2,
+    "requiredResearch": {
+      "id": "",
+      "name": "Bauxite Refinement",
+      "tier": 7
+    }
+  },
+  {
+    "id": "",
+    "name": "Constructor",
+    "dimensions": {
+      "id": "",
+      "width": 8.0,
+      "length": 10.0,
+      "height": 8.0
+    },
+    "category": "Production",
+    "subCategory": "Manufacturers",
+    "powerConsumption": 4.0,
+    "inputsCount": 1,
+    "outputsCount": 1,
+    "requiredResearch": {
+      "id": "",
+      "name": "HUB Upgrade 3",
+      "tier": 0
+    }
+  },
+  {
+    "id": "",
+    "name": "Foundry",
+    "dimensions": {
+      "id": "",
+      "width": 10.0,
+      "length": 9.0,
+      "height": 9.0
+    },
+    "category": "Production",
+    "subCategory": "Smelters",
+    "powerConsumption": 16.0,
+    "inputsCount": 2,
+    "outputsCount": 1,
+    "requiredResearch": {
+      "id": "",
+      "name": "Basic Steel Production",
+      "tier": 3
+    }
+  },
+  {
+    "id": "",
+    "name": "Manufacturer",
+    "dimensions": {
+      "id": "",
+      "width": 18.0,
+      "length": 20.0,
+      "height": 12.0
+    },
+    "category": "Production",
+    "subCategory": "Manufacturers",
+    "powerConsumption": 55.0,
+    "inputsCount": 4,
+    "outputsCount": 1,
+    "requiredResearch": {
+      "id": "",
+      "name": "Industrial Manufacturing",
+      "tier": 5
+    }
+  },
+  {
+    "id": "",
+    "name": "Miner Mk.1",
+    "dimensions": {
+      "id": "",
+      "width": 6.0,
+      "length": 14.0,
+      "height": 18.0
+    },
+    "category": "Production",
+    "subCategory": "Miners",
+    "powerConsumption": 5.0,
+    "inputsCount": 0,
+    "outputsCount": 1,
+    "requiredResearch": {
+      "id": "",
+      "name": "HUB Upgrade 5",
+      "tier": 0
+    }
+  },
+  {
+    "id": "",
+    "name": "Miner Mk.2",
+    "dimensions": {
+      "id": "",
+      "width": 6.0,
+      "length": 14.0,
+      "height": 18.0
+    },
+    "category": "Production",
+    "subCategory": "Miners",
+    "powerConsumption": 12.0,
+    "inputsCount": 0,
+    "outputsCount": 1,
+    "requiredResearch": {
+      "id": "",
+      "name": "HUB Upgrade 5",
+      "tier": 0
+    }
+  },
+  {
+    "id": "",
+    "name": "Miner Mk.3",
+    "dimensions": {
+      "id": "",
+      "width": 6.0,
+      "length": 14.0,
+      "height": 18.0
+    },
+    "category": "Production",
+    "subCategory": "Miners",
+    "powerConsumption": 30.0,
+    "inputsCount": 0,
+    "outputsCount": 1,
+    "requiredResearch": {
+      "id": "",
+      "name": "HUB Upgrade 3",
+      "tier": 0
+    }
+  },
+  {
+    "id": "",
+    "name": "Oil Extractor",
+    "dimensions": {
+      "id": "",
+      "width": 8.0,
+      "length": 14.0,
+      "height": 20.0
+    },
+    "category": "Production",
+    "subCategory": "Fluid Extractors",
+    "powerConsumption": 40.0,
+    "inputsCount": 0,
+    "outputsCount": 1,
+    "requiredResearch": {
+      "id": "",
+      "name": "Oil Processing",
+      "tier": 5
+    }
+  },
+  {
+    "id": "",
+    "name": "Packager",
+    "dimensions": {
+      "id": "",
+      "width": 8.0,
+      "length": 8.0,
+      "height": 12.0
+    },
+    "category": "Production",
+    "subCategory": "Manufacturers",
+    "powerConsumption": 10.0,
+    "inputsCount": 2,
+    "outputsCount": 2,
+    "requiredResearch": {
+      "id": "",
+      "name": "Alternative Fluid Transport",
+      "tier": 5
+    }
+  },
+  {
+    "id": "",
+    "name": "Particle Accelerator",
+    "dimensions": {
+      "id": "",
+      "width": 24.0,
+      "length": 38.0,
+      "height": 32.0
+    },
+    "category": "Production",
+    "subCategory": "Manufacturers",
+    "powerConsumption": 625.0,
+    "inputsCount": 3,
+    "outputsCount": 1,
+    "requiredResearch": {
+      "id": "",
+      "name": "Particle Enrichment",
+      "tier": 8
+    }
+  },
+  {
+    "id": "",
+    "name": "Refinery",
+    "dimensions": {
+      "id": "",
+      "width": 10.0,
+      "length": 20.0,
+      "height": 31.0
+    },
+    "category": "Production",
+    "subCategory": "Manufacturers",
+    "powerConsumption": 30.0,
+    "inputsCount": 2,
+    "outputsCount": 2,
+    "requiredResearch": {
+      "id": "",
+      "name": "Oil Processing",
+      "tier": 5
+    }
+  },
+  {
+    "id": "",
+    "name": "Resource Well Extractor",
+    "dimensions": {
+      "id": "",
+      "width": 4.0,
+      "length": 4.0,
+      "height": 5.0
+    },
+    "category": "Production",
+    "subCategory": "Fluid Extractors",
+    "powerConsumption": 0.0,
+    "inputsCount": 0,
+    "outputsCount": 1,
+    "requiredResearch": {
+      "id": "",
+      "name": "Advanced Aluminum Production",
+      "tier": 8
+    }
+  },
+  {
+    "id": "",
+    "name": "Resource Well Pressurizer",
+    "dimensions": {
+      "id": "",
+      "width": 20.0,
+      "length": 20.0,
+      "height": 23.0
+    },
+    "category": "Production",
+    "subCategory": "Fluid Extractors",
+    "powerConsumption": 150.0,
+    "inputsCount": 0,
+    "outputsCount": 0,
+    "requiredResearch": {
+      "id": "",
+      "name": "Advanced Aluminum Production",
+      "tier": 8
+    }
+  },
+  {
+    "id": "",
+    "name": "Smelter",
+    "dimensions": {
+      "id": "",
+      "width": 6.0,
+      "length": 9.0,
+      "height": 9.0
+    },
+    "category": "Production",
+    "subCategory": "Smelters",
+    "powerConsumption": 4.0,
+    "inputsCount": 1,
+    "outputsCount": 1,
+    "requiredResearch": {
+      "id": "",
+      "name": "HUB Upgrade 2",
+      "tier": 0
+    }
+  },
+  {
+    "id": "",
+    "name": "Water Extractor",
+    "dimensions": {
+      "id": "",
+      "width": 20.0,
+      "length": 19.5,
+      "height": 26.0
+    },
+    "category": "Production",
+    "subCategory": "Fluid Extractors",
+    "powerConsumption": 20.0,
+    "inputsCount": 0,
+    "outputsCount": 1,
+    "requiredResearch": {
+      "id": "",
+      "name": "Coal Power",
+      "tier": 3
+    }
+  }
+]
