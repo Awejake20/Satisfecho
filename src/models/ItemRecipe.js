@@ -1,4 +1,4 @@
-import { Recipe } from "./Recipe.js";
+const Recipe = require('./Recipe');
 
 class ItemRecipe extends Recipe {
     constructor(name, ingredients, item, craftingMachine, craftingTime, yield) {
@@ -29,4 +29,4 @@ class ItemRecipe extends Recipe {
     }
 }
 
-export default ItemRecipe;
+module.exports = ItemRecipe

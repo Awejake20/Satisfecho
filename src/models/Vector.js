@@ -85,4 +85,4 @@ class Vector extends Array {
 
 }
 
-export default Vector
+module.exports = Vector
