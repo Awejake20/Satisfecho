@@ -1,4 +1,5 @@
-import { v4 as uuidv4 } from 'uuid';
+const { v4: uuidv4 } = require('uuid');
+
 
 class Ingredient {
     constructor(name, quantity) {
@@ -16,4 +17,4 @@ class Ingredient {
     }
 }
 
-export default Ingredient;
+module.exports = Ingredient

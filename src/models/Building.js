@@ -1,4 +1,4 @@
-import { v4 as uuidv4 } from 'uuid';
+const { v4: uuidv4 } = require('uuid');
 
 class Building {
     constructor(name, dimensions, category, subCategory, powerConsumption, inputsCount, outputsCount, requiredResearch) {
@@ -35,4 +35,4 @@ class Building {
     }
 }
 
-export default Building;
+module.exports = Building

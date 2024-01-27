@@ -1,4 +1,4 @@
-import { v4 as uuidv4 } from 'uuid';
+const { v4: uuidv4 } = require('uuid');
 
 /**
  * Represents the dimensions of an object.
@@ -37,4 +37,4 @@ class Dimensions {
     }
 }
 
-export default Dimensions;
+module.exports = Dimensions
