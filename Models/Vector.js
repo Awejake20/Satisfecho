@@ -7,6 +7,11 @@
 class Vector extends Array {
 
   constructor(...args) {
+
+    if (args.some(arg => typeof arg !== 'number')) {
+      throw new Error('All arguments must be numbers.');
+    }
+    
     super(...args);
   }
 

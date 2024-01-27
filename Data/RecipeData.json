@@ -1,0 +1,18 @@
+[
+  {
+    "id": "",
+    "name": "Adaptive Control Unit",
+    "item": "Adaptive Control Unit",
+    "craftingMachine": "Manufacturer",
+    "inputs": {
+      "Automated Wiring": 7.5,
+      "Circuit Board": 5.0,
+      "Heavy Modular Frame": 1.0,
+      "Computer": 1.0
+    },
+    "outputs": {
+      
+    },
+    "time": 120.0
+  },
+]
