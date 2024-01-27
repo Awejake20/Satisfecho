@@ -22,6 +22,15 @@
   },
   {
     "id": "",
+    "name": "Alumina Solution",
+    "recipes": [
+      "Alumina Solution",
+      "Unpackage Alumina Solution",
+      "Sloppy Alumina"
+    ]
+  },
+  {
+    "id": "",
     "name": "Aluminum Casing",
     "recipes": [
       "Aluminum Casing",
@@ -70,6 +79,21 @@
   },
   {
     "id": "",
+    "name": "Bauxite",
+    "recipes": [
+      "Bauxite"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Beacon",
+    "recipes": [
+      "Beacon",
+      "Crystal Beacon"
+    ]
+  },
+  {
+    "id": "",
     "name": "Biomass",
     "recipes": [
       "Biomass (Leaves)",
@@ -106,12 +130,49 @@
   },
   {
     "id": "",
+    "name": "Caterium Ore",
+    "recipes": [
+      "Caterium Ore"
+    ]
+  },
+  {
+    "id": "",
     "name": "Circuit Board",
     "recipes": [
       "Circuit Board",
       "Electrode Circuit Board",
       "Silicon Circuit Board",
       "Caterium Circuit Board"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Cluster Nobelisk",
+    "recipes": [
+      "Cluster Nobelisk"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Coal",
+    "recipes": [
+      "Coal",
+      "Biocoal",
+      "Charcoal"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Color Cartridge",
+    "recipes": [
+      "Color Cartridge"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Compacted Coal",
+    "recipes": [
+      "Compacted Coal"
     ]
   },
   {
@@ -152,6 +213,13 @@
   },
   {
     "id": "",
+    "name": "Copper Ore",
+    "recipes": [
+      "Copper Ore"
+    ]
+  },
+  {
+    "id": "",
     "name": "Copper Powder",
     "recipes": [
       "Copper Powder"
@@ -163,6 +231,14 @@
     "recipes": [
       "Copper Sheet",
       "Steamed Copper Sheet"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Crude Oil",
+    "recipes": [
+      "Crude Oil",
+      "Unpackage Oil"
     ]
   },
   {
@@ -233,10 +309,24 @@
   },
   {
     "id": "",
+    "name": "Explosive Rebar",
+    "recipes": [
+      "Explosive Rebar"
+    ]
+  },
+  {
+    "id": "",
     "name": "Fabric",
     "recipes": [
       "Fabric",
       "Polyester Fabric"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Flower Petals",
+    "recipes": [
+      "None"
     ]
   },
   {
@@ -259,6 +349,27 @@
   },
   {
     "id": "",
+    "name": "Gas Filter",
+    "recipes": [
+      "Gas Filter"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Gas Nobelisk",
+    "recipes": [
+      "Gas Nobelisk"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Hatcher Remains",
+    "recipes": [
+      "None"
+    ]
+  },
+  {
+    "id": "",
     "name": "Heavy Modular Frame",
     "recipes": [
       "Heavy Modular Frame",
@@ -268,10 +379,42 @@
   },
   {
     "id": "",
+    "name": "Heavy Oil Residue",
+    "recipes": [
+      "Heavy Oil Residue",
+      "Unpackage Heavy Oil Residue",
+      "Plastic",
+      "Rubber",
+      "Polymer Resin"
+    ]
+  },
+  {
+    "id": "",
     "name": "High-Speed Connector",
     "recipes": [
       "High-Speed Connector",
       "Silicon High-Speed Connector"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Hog Remains",
+    "recipes": [
+      "None"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Homing Rifle Ammo",
+    "recipes": [
+      "Homing Rifle Ammo"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Iodine Infused Filter",
+    "recipes": [
+      "Iodine Infused Filter"
     ]
   },
   {
@@ -285,11 +428,25 @@
   },
   {
     "id": "",
+    "name": "Iron Ore",
+    "recipes": [
+      "Iron Ore"
+    ]
+  },
+  {
+    "id": "",
     "name": "Iron Plate",
     "recipes": [
       "Iron Plate",
       "Coated Iron Plate",
       "Steel Coated Plate"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Iron Rebar",
+    "recipes": [
+      "Iron Rebar"
     ]
   },
   {
@@ -302,10 +459,31 @@
   },
   {
     "id": "",
+    "name": "Leaves",
+    "recipes": [
+      "None"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Limestone",
+    "recipes": [
+      "Limestone"
+    ]
+  },
+  {
+    "id": "",
     "name": "Liquid Biofuel",
     "recipes": [
       "Liquid Biofuel",
       "Unpackage Liquid Biofuel"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Magnetic Field Generator",
+    "recipes": [
+      "Magnetic Field Generator"
     ]
   },
   {
@@ -335,6 +513,13 @@
   },
   {
     "id": "",
+    "name": "Mycelia",
+    "recipes": [
+      "None"
+    ]
+  },
+  {
+    "id": "",
     "name": "Nitric Acid",
     "recipes": [
       "Nitric Acid",
@@ -345,7 +530,15 @@
     "id": "",
     "name": "Nitrogen Gas",
     "recipes": [
+      "Nitrogen Gas",
       "Unpackage Nitrogen Gas"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Nobelisk",
+    "recipes": [
+      "Nobelisk"
     ]
   },
   {
@@ -361,6 +554,13 @@
     "name": "Nuclear Pasta",
     "recipes": [
       "Nuclear Pasta"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Nuke Nobelisk",
+    "recipes": [
+      "Nuke Nobelisk"
     ]
   },
   {
@@ -443,6 +643,13 @@
   },
   {
     "id": "",
+    "name": "Plasma Spitter Remains",
+    "recipes": [
+      "None"
+    ]
+  },
+  {
+    "id": "",
     "name": "Plastic",
     "recipes": [
       "Plastic",
@@ -490,6 +697,13 @@
   },
   {
     "id": "",
+    "name": "Pulse Nobelisk",
+    "recipes": [
+      "Pulse Nobelisk"
+    ]
+  },
+  {
+    "id": "",
     "name": "Quartz Crystal",
     "recipes": [
       "Quartz Crystal",
@@ -515,12 +729,26 @@
   },
   {
     "id": "",
+    "name": "Raw Quartz",
+    "recipes": [
+      "Raw Quartz"
+    ]
+  },
+  {
+    "id": "",
     "name": "Reinforced Iron Plate",
     "recipes": [
       "Reinforced Iron Plate",
       "Adhered Iron Plate",
       "Bolted Iron Plate",
       "Stitched Iron Plate"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Rifle Ammo",
+    "recipes": [
+      "Rifle Ammo"
     ]
   },
   {
@@ -552,11 +780,33 @@
   },
   {
     "id": "",
+    "name": "Shatter Rebar",
+    "recipes": [
+      "Shatter Rebar"
+    ]
+  },
+  {
+    "id": "",
     "name": "Silica",
     "recipes": [
       "Silica",
       "Alumina Solution",
       "Cheap Silica"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Smart Plating",
+    "recipes": [
+      "Smart Plating",
+      "Plastic Smart Plating"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Solid Biofuel",
+    "recipes": [
+      "Solid Biofuel"
     ]
   },
   {
@@ -593,11 +843,48 @@
   },
   {
     "id": "",
+    "name": "Stinger Remains",
+    "recipes": [
+      "None"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Stun Rebar",
+    "recipes": [
+      "Stun Rebar"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Sulfur",
+    "recipes": [
+      "Sulfur"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Sulfuric Acid",
+    "recipes": [
+      "Sulfuric Acid",
+      "Encased Uranium Cell",
+      "Unpackage Sulfuric Acid"
+    ]
+  },
+  {
+    "id": "",
     "name": "Supercomputer",
     "recipes": [
       "Supercomputer",
       "OC Supercomputer",
       "Super-State Computer"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Thermal Propulsion Rocket",
+    "recipes": [
+      "Thermal Propulsion Rocket"
     ]
   },
   {
@@ -611,12 +898,27 @@
   },
   {
     "id": "",
+    "name": "Turbo Rifle Ammo",
+    "recipes": [
+      "Turbo Rifle Ammo",
+      "Turbo Rifle Ammo"
+    ]
+  },
+  {
+    "id": "",
     "name": "Turbofuel",
     "recipes": [
       "Turbofuel",
       "Unpackage Turbofuel",
       "Turbo Heavy Fuel",
       "Turbo Blend Fuel"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Uranium",
+    "recipes": [
+      "Uranium"
     ]
   },
   {
@@ -644,12 +946,33 @@
   },
   {
     "id": "",
+    "name": "Water",
+    "recipes": [
+      "Water",
+      "Aluminum Scrap",
+      "Battery",
+      "Non-fissle Uranium",
+      "Unpackage Water",
+      "Electrode-Aluminum Scrap",
+      "Instant Scrap",
+      "Fertile Uranium"
+    ]
+  },
+  {
+    "id": "",
     "name": "Wire",
     "recipes": [
       "Wire",
       "Fused Wire",
       "Iron Wire",
       "Caterium Wire"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Wood",
+    "recipes": [
+      "None"
     ]
   }
 ]
