@@ -1,0 +1,655 @@
+[
+  {
+    "id": "",
+    "name": "Adaptive Control Unit",
+    "recipes": [
+      "Adaptive Control Unit"
+    ]
+  },
+  {
+    "id": "",
+    "name": "AI Limiter",
+    "recipes": [
+      "AI Limiter"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Alclad Aluminum Sheet",
+    "recipes": [
+      "Alclad Aluminum Sheet"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Aluminum Casing",
+    "recipes": [
+      "Aluminum Casing",
+      "Alclad Casing"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Aluminum Ingot",
+    "recipes": [
+      "Aluminum Ingot",
+      "Pure Aluminum Ingot"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Aluminum Scrap",
+    "recipes": [
+      "Aluminum Scrap",
+      "Electrode-Aluminum Scrap",
+      "Instant Scrap"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Assembly Director System",
+    "recipes": [
+      "Assembly Director System"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Automated Wiring",
+    "recipes": [
+      "Automated Wiring",
+      "Automated Speed Wiring"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Battery",
+    "recipes": [
+      "Battery",
+      "Classic Battery"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Biomass",
+    "recipes": [
+      "Biomass (Leaves)",
+      "Biomass (Wood)",
+      "Biomass (Mycelia)",
+      "Biomass (Alien Protien)"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Black Powder",
+    "recipes": [
+      "Black Powder",
+      "Fine Black Powder"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Cable",
+    "recipes": [
+      "Cable",
+      "Coated Cable",
+      "Insulated Cable",
+      "Quickwire Cable"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Caterium Ingot",
+    "recipes": [
+      "Caterium Ingot",
+      "Pure Caterium Ingot"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Circuit Board",
+    "recipes": [
+      "Circuit Board",
+      "Electrode Circuit Board",
+      "Silicon Circuit Board",
+      "Caterium Circuit Board"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Computer",
+    "recipes": [
+      "Computer",
+      "Crystal Computer",
+      "Caterium Computer"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Concrete",
+    "recipes": [
+      "Concrete",
+      "Rubber Concrete",
+      "Wet Concrete",
+      "Fine Concrete"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Cooling System",
+    "recipes": [
+      "Cooling System",
+      "Cooling Device"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Copper Ingot",
+    "recipes": [
+      "Copper Ingot",
+      "Copper Alloy Ingot",
+      "Pure Copper Ingot"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Copper Powder",
+    "recipes": [
+      "Copper Powder"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Copper Sheet",
+    "recipes": [
+      "Copper Sheet",
+      "Steamed Copper Sheet"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Crystal Oscillator",
+    "recipes": [
+      "Crystal Oscillator",
+      "Insulated Crystal Oscillator"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Electromagnetic Control Rod",
+    "recipes": [
+      "Electromagnetic Control Rod",
+      "Electromagnetic Connection Rod"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Empty Canister",
+    "recipes": [
+      "Empty Canister",
+      "Steel Canister",
+      "Coated Iron Canister",
+      "Unpackage Alumina Solution",
+      "Unpackage Oil",
+      "Unpackage Fuel",
+      "Unpackage Heavy Oil Residue",
+      "Unpackage Liquid Biofuel",
+      "Unpackage Sulfuric Acid",
+      "Unpackage Turbofuel",
+      "Unpackage Water"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Empty Fluid Tank",
+    "recipes": [
+      "Empty Fluid Tank",
+      "Unpackage Nitric Acid",
+      "Unpackage Nitrogen Gas"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Encased Industrial Beam",
+    "recipes": [
+      "Encased Industrial Beam",
+      "Encased Inductrial Pipe"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Encased Plutonium Cell",
+    "recipes": [
+      "Encased Plutonium Cell",
+      "Instant Plutonium Cell"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Encased Uranium Cell",
+    "recipes": [
+      "Encased Uranium Cell",
+      "Infused Uranium Cell"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Fabric",
+    "recipes": [
+      "Fabric",
+      "Polyester Fabric"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Fuel",
+    "recipes": [
+      "Fuel",
+      "Residual Fuel",
+      "Unpackage Fuel",
+      "Diluted Fuel"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Fused Modular Frame",
+    "recipes": [
+      "Fused Modular Frame",
+      "Heat-Fused Frame"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Heavy Modular Frame",
+    "recipes": [
+      "Heavy Modular Frame",
+      "Heavy Flexible Frame",
+      "Heavy Encased Frame"
+    ]
+  },
+  {
+    "id": "",
+    "name": "High-Speed Connector",
+    "recipes": [
+      "High-Speed Connector",
+      "Silicon High-Speed Connector"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Iron Ingot",
+    "recipes": [
+      "Iron Ingot",
+      "Pure Iron Ingot",
+      "Iron Alloy Ingot"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Iron Plate",
+    "recipes": [
+      "Iron Plate",
+      "Coated Iron Plate",
+      "Steel Coated Plate"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Iron Rod",
+    "recipes": [
+      "Iron Rod",
+      "Steel Rod"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Liquid Biofuel",
+    "recipes": [
+      "Liquid Biofuel",
+      "Unpackage Liquid Biofuel"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Modular Engine",
+    "recipes": [
+      "Modular Engine"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Modular Frame",
+    "recipes": [
+      "Modular Frame",
+      "Bolted Frame",
+      "Steeled Frame"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Motor",
+    "recipes": [
+      "Motor",
+      "Rigour Motor",
+      "Electric Motor"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Nitric Acid",
+    "recipes": [
+      "Nitric Acid",
+      "Unpackage Nitric Acid"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Nitrogen Gas",
+    "recipes": [
+      "Unpackage Nitrogen Gas"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Non-fissle Uranium",
+    "recipes": [
+      "Non-fissle Uranium",
+      "Fertile Uranium"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Nuclear Pasta",
+    "recipes": [
+      "Nuclear Pasta"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Packaged Alumina Solution",
+    "recipes": [
+      "Packaged Alumina Solution"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Packaged Fuel",
+    "recipes": [
+      "Packaged Fuel",
+      "Diluted Packaged Fuel"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Packaged Heavy Oil Residue",
+    "recipes": [
+      "Packaged Heavy Oil Residue"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Packaged Liquid Biofuel",
+    "recipes": [
+      "Packaged Liquid Biofuel"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Packaged Nitric Acid",
+    "recipes": [
+      "Packaged Nitric Acid"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Packaged Nitrogen Gas",
+    "recipes": [
+      "Packaged Nitrogen Gas"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Packaged Oil",
+    "recipes": [
+      "Packaged Oil"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Packaged Sulfuric Acid",
+    "recipes": [
+      "Packaged Sulfuric Acid"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Packaged Turbofuel",
+    "recipes": [
+      "Packaged Turbofuel"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Packaged Water",
+    "recipes": [
+      "Packaged Water"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Petroleum Coke",
+    "recipes": [
+      "Petroleum Coke"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Plastic",
+    "recipes": [
+      "Plastic",
+      "Residual Plastic",
+      "Recycled Plastic"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Plutonium Fuel Rod",
+    "recipes": [
+      "Plutonium Fuel Rod",
+      "Plutonium Fuel Unit"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Plutonium Pellet",
+    "recipes": [
+      "Plutonium Pellet"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Plutonium Waste",
+    "recipes": [
+      "Plutonium Waste"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Polymer Resin",
+    "recipes": [
+      "Polymer Resin",
+      "Fuel",
+      "Heavy Oil Residue"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Pressure Conversion Cube",
+    "recipes": [
+      "Pressure Conversion Cube"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Quartz Crystal",
+    "recipes": [
+      "Quartz Crystal",
+      "Pure Quartz Crystal"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Quickwire",
+    "recipes": [
+      "Quickwire",
+      "Fused Quickwire"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Radio Control Unit",
+    "recipes": [
+      "Radio Control Unit",
+      "Radio Control System",
+      "Radio Connection Unit"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Reinforced Iron Plate",
+    "recipes": [
+      "Reinforced Iron Plate",
+      "Adhered Iron Plate",
+      "Bolted Iron Plate",
+      "Stitched Iron Plate"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Rotor",
+    "recipes": [
+      "Rotor",
+      "Copper Rotor",
+      "Steel Rotor"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Rubber",
+    "recipes": [
+      "Residual Rubber",
+      "Residual Rubber",
+      "Recycled Rubber"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Screw",
+    "recipes": [
+      "Screw",
+      "Cast Screw",
+      "Steel Screw"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Silica",
+    "recipes": [
+      "Silica",
+      "Alumina Solution",
+      "Cheap Silica"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Stator",
+    "recipes": [
+      "Stator",
+      "Quickwire Stator"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Steel Beam",
+    "recipes": [
+      "Steel Beam"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Steel Ingot",
+    "recipes": [
+      "Steel Ingot",
+      "Coke Steel Ingot",
+      "Compacted Steel Ingot",
+      "Solid Steel Ingot"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Steel Pipe",
+    "recipes": [
+      "Steel Pipe"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Supercomputer",
+    "recipes": [
+      "Supercomputer",
+      "OC Supercomputer",
+      "Super-State Computer"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Turbo Motor",
+    "recipes": [
+      "Turbo Motor",
+      "Turbo Electric Motor",
+      "Turbo Pressure Motor"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Turbofuel",
+    "recipes": [
+      "Turbofuel",
+      "Unpackage Turbofuel",
+      "Turbo Heavy Fuel",
+      "Turbo Blend Fuel"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Uranium Fuel Rod",
+    "recipes": [
+      "Uranium Fuel Rod",
+      "Uranium Fuel Unit"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Uranium Waste",
+    "recipes": [
+      "Uranium Waste"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Versatile Framework",
+    "recipes": [
+      "Versatile Framework",
+      "Flexible Framework"
+    ]
+  },
+  {
+    "id": "",
+    "name": "Wire",
+    "recipes": [
+      "Wire",
+      "Fused Wire",
+      "Iron Wire",
+      "Caterium Wire"
+    ]
+  }
+]
