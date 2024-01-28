@@ -128,7 +128,7 @@ class Matrix extends Array {
     // Vector multiplication
     else if (x instanceof Vector) {
       
-      let  = new Vector();
+      let vec = new Vector();
       for (let i = 0; i < this.length; i++) {
         vec[i] = x.multiply(this[i]);
       }
@@ -149,6 +149,46 @@ class Matrix extends Array {
       }
 
       return mat;
+    }
+  }
+
+  invert() {
+    /**
+     * @return {Matrix} The inverse of this matrix.
+     */
+
+    // Create identity matrix
+    let identity = new Matrix();
+    for (let i = 0; i < this.length; i++) {
+      identity[i] = new Vector();
+      for (let j = 0; j < this.length; j++) {
+        identity[i][j] = (i == j ? 1 : 0)
+      }
+    }
+
+    // Create a copy of this matrix
+    let mat = new Matrix();
+    for (let i = 0; i < this.length; i++) {
+      mat[i] = new Vector();
+      for (let j = 0; j < this.length; j++) {
+        mat[i][j] = this[i][j]
+      }
+    }
+
+    for (let i = 0; i < this.length; i++) {
+
+      // Find row with largest absolute value
+      let max = i;
+      for (let j = i + 1; j < this.length; j++) {
+        if (Math.abs(mat[j][i]) > Math.abs(mat[max][i])) {
+          max = j;
+        }
+      }
+
+      // Pivot current row with largest absolute value row
+      [mat[i], mat[max]] = [mat[max], mat[i]];
+
+      
     }
   }
 }
