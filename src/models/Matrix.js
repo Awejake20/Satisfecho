@@ -8,7 +8,6 @@ import Vector from "./Vector.js";
 
 class Matrix extends Array {
   
-<<<<<<< HEAD:Models/Matrix.js
   constructor(...args) {
 
     if (args.some(arg => !(arg instanceof Vector) || 
@@ -104,8 +103,3 @@ class Matrix extends Array {
 }
 
 export default Matrix
-=======
-}
-
-module.exports = Matrix
->>>>>>> fb6304fe46f634b31ec1556a24c2777b7e13dcde:src/models/Matrix.js
