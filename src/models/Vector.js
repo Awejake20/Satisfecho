@@ -1,3 +1,5 @@
+import Matrix from "./Matrix.js"
+
 /**
  * Vector class, inherits from Array
  * @constructor
@@ -75,14 +77,41 @@ class Vector extends Array {
 
   multiply(x) {
     /**
-     * Multiplication by a scalar, vector, or matrix. Vector and matrix 
-     * multiplication are defined as x*this.
+     * Multiplication by a scalar or vector.
+     * Vector multiplication defined as the dot product of x * this.
      */
 
-    
+    if (!(x instanceof Number) && 
+        !(x instanceof Vector) && 
+        !(x instanceof Matrix)) {
+      throw new Error("Argument must be a Number, Vector, or Matrix.")
+    }
+    else if ((x instanceof Vector) && (this.length != x.length)) {
+      throw new Error("Vectors must be the same length.")
+    }
+
+    // Scalar multiplication
+    if (x instanceof Number) {
+
+      let vec = new Vector();
+      for (let i = 0; i < this.length; i++) {
+        Vector[i] = x*this[i];
+      }
+
+      return vec;
+    }
+
+    // Vector dot product
+    else if (x instanceof Vector) {
+
+      let sum = 0;
+      for (let i = 0; i < this.length; i++) sum += this[i] * x[i];
+      
+      return sum;
+    }
   }
 
 
 }
 
-module.exports = Vector
+export default Vector

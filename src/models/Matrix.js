@@ -31,6 +31,22 @@ class Matrix extends Array {
     return str;
   }
 
+  transpose() {
+    /**
+     * @return {Matrix} The transpose of this matrix.
+     */
+
+    let mat = new Matrix();
+    for (let i = 0; i < this.length; i++) {
+      mat[i] = new Vector();
+      for (let j = 0; j < this.length; j++) {
+        mat[i][j] = this[j][i];
+      }
+    }
+
+    return mat;
+  }
+
   add(matrix) {
     /**
      * Addition of two matrices.
@@ -47,6 +63,7 @@ class Matrix extends Array {
 
     let mat = new Matrix();
     for (let i = 0; i < this.length; i++) {
+      mat[i] = new Vector();
       mat[i] = this[i] + matrix[i];
     }
 
@@ -69,6 +86,7 @@ class Matrix extends Array {
 
     let mat = new Matrix();
     for (let i = 0; i < this.length; i++) {
+      mat[i] = new Vector();
       mat[i] = this[i] - matrix[i];
     }
 
@@ -90,14 +108,47 @@ class Matrix extends Array {
       throw new Error("Vector argument must be the same length as the matrix")
     }
     else if ((x instanceof Matrix) && (x.length != this.length)) {
-      throw new Error("Matrix argument must be the same length as the matrix")
+      throw new Error("Matrix argument must be the same size as the matrix")
     }
 
-    let mat = new Matrix();
-    for (let i = 0; i < this.length; i++) {
-      for (let j = 0; j < this.length; j++) {
-        mat[i][j] = this[i]
+    // Scalar multiplication
+    if (x instanceof Number) {
+
+      let mat = new Matrix();
+      for (let i = 0; i < this.length; i++) {
+        mat[i] = new Vector();
+        for (let j = 0; j < this.length; j++) {
+          mat[i][j] = x * this[i][j]
+        }
       }
+
+      return mat;
+    }
+
+    // Vector multiplication
+    else if (x instanceof Vector) {
+      
+      let  = new Vector();
+      for (let i = 0; i < this.length; i++) {
+        vec[i] = x.multiply(this[i]);
+      }
+
+      return vec;
+    }
+
+    // Matrix multiplication
+    else if (x instanceof Matrix) {
+
+      let mat = new Matrix();
+      x = x.transpose();
+      for (let i = 0; i < this.length; i++) {
+        mat[i] = new Vector();
+        for (let j = 0; j < this.length; j++) {
+          mat[i][j] = this[i].multiply(x[j]);
+        }
+      }
+
+      return mat;
     }
   }
 }
