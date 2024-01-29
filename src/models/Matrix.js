@@ -11,7 +11,7 @@ class Matrix extends Array {
   constructor(...args) {
 
     if (args.some(arg => !(arg instanceof Vector) || 
-        arg.length !== args.length)) {
+        arg.length != args.length)) {
       throw new Error('All arguments must be Vectors of the correct length.');
     }
 
@@ -156,27 +156,26 @@ class Matrix extends Array {
     /**
      * @return {Matrix} The inverse of this matrix.
      */
-
+  
     // Create identity matrix
     let identity = new Matrix();
     for (let i = 0; i < this.length; i++) {
       identity[i] = new Vector();
       for (let j = 0; j < this.length; j++) {
-        identity[i][j] = (i == j ? 1 : 0)
+        identity[i][j] = (i == j ? 1 : 0);
       }
     }
-
+  
     // Create a copy of this matrix
     let mat = new Matrix();
     for (let i = 0; i < this.length; i++) {
       mat[i] = new Vector();
       for (let j = 0; j < this.length; j++) {
-        mat[i][j] = this[i][j]
+        mat[i][j] = this[i][j];
       }
     }
-
+  
     for (let i = 0; i < this.length; i++) {
-
       // Find row with largest absolute value
       let max = i;
       for (let j = i + 1; j < this.length; j++) {
@@ -184,12 +183,31 @@ class Matrix extends Array {
           max = j;
         }
       }
-
+  
       // Pivot current row with largest absolute value row
       [mat[i], mat[max]] = [mat[max], mat[i]];
-
-      
+      [identity[i], identity[max]] = [identity[max], identity[i]];
+  
+      // Scale pivot row
+      const scale = mat[i][i];
+      for (let j = 0; j < this.length; j++) {
+        mat[i][j] /= scale;
+        identity[i][j] /= scale;
+      }
+  
+      // Eliminate other rows
+      for (let j = 0; j < this.length; j++) {
+        if (j != i) {
+          const factor = mat[j][i];
+          for (let k = 0; k < this.length; k++) {
+            mat[j][k] -= factor * mat[i][k];
+            identity[j][k] -= factor * identity[i][k];
+          }
+        }
+      }
     }
+  
+    return identity;
   }
 }
 
